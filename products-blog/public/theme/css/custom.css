@@ -1,0 +1,94 @@
+.ml {
+    margin-left:1rem;
+}
+
+.btn-primary:hover {
+    background-color: rgb(150, 150, 150);
+    border:1px solid black;
+    box-shadow:0 0 1px 1px black;
+}
+.right {
+    float:right;
+}
+.ml-01 {
+    margin-left:0.5rem;
+}
+.ekran {
+    min-height:100vh;
+}
+
+.t-s {
+    text-shadow: 2px 2px 2px black !important;
+ }
+
+ .obj-cover {
+     object-fit: cover;
+ }
+ .block-height {
+     height:400px;
+ }
+
+ .font-style {
+     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+
+ .btn-black {
+     background-color: black;
+ }
+ .img-bg {
+     height:300px;
+     background-size: cover;
+     background-image: url(../img/patike.jpg);
+     background-position: center center;
+     background-repeat: no-repeat;
+ }
+
+ .overlay {
+    background-color:rgba(0, 0, 0, 0.5);
+    height:100%;
+ }
+.pas {
+    height:500px;
+    background-size:cover;
+    background-image: url(../img/pas-sa-kablom.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.nike-pattern {
+    background-image: url(../img/nike-pattern.jpg);
+    background-repeat: repeat;
+}
+
+.top-1 {
+    top:1px !important;
+}
+
+.start-95 {
+    left:95% !important;
+}
+
+.bottom-5 {
+    bottom:5%;
+}
+.end-2 {
+    right:2%;
+}
+.w-15 {
+    width:15% !important;
+}
+
+.bg-trans {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.px-0 {
+    padding-right:0 !important;
+    padding-left:0 !important;
+}
+.mb-0 {
+    margin-bottom:0;
+}
+
+.start-96 {
+    left:-96% !important;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="theme/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="mb-5">
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light px-3" href="#"><img src="theme/img/logo.png" height="28" alt="Nike Logo"> <span class="text-black">SHOE SHOP</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <section class="d-flex flex-row justify-content-between">
+                <div>
+                    <form action="" method="GET">
+                        <label for="sortiranje">Sortiraj:</label>
+                            <select name="sortiranje" id="sortiranje" class="p-1 px-2 rounded-pill">
+                            <option value="selected" selected>Opcije</option>
+                           <option value="ceni_opadajuće">Po ceni opadajuće</option>
+                           <option value="ceni_rastuće">Po ceni rastuće</option>
+                            </select>
+                    </form>
+                </div>
+               <form action="" method="GET">
+                   <input type="text" placeholder="Ukucaj proizvod" name="pretraga">
+                   <button tpye="submit">Pretraži proizvode</button>
+               </form>
+            </section>
+            <section class="row">
+                        <div class="card col-3">
+                            <div class="m-2">
+                                <img src="<?php echo $singleProduct['img'] ?>" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title"></h5>
+                                    <p class="card-text"></p>
+                                    <a href="./single-product-page.php" class="btn btn-primary">
+                                        Prikaži proizvod
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+            </section>
+        </div>
+    </main>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-muted px-3">© 2022 Shoe Shop, Inc</p>
+    
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+          <img src="theme/img/logo.png" height="20" alt="Nike Logo">
+        </a>
+    
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="https://getbootstrap.com/" class="nav-link px-2 text-muted">Bootstrap</a></li>
+          <li class="nav-item"><a href="https://www.php.net/docs.php" class="nav-link px-2 text-muted">PHP</a></li>
+          <li class="nav-item"><a href="https://google.com" class="nav-link px-2 text-muted">Google</a></li>
+          <li class="nav-item"><a href="https://itbootcamp.rs/" class="nav-link px-2 text-muted">IT Bootcamp</a></li>
+        </ul>
+      </footer>
+    <script src="/theme/js/bootstrap.js"></script>
+</body>
+</html>
